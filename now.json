@@ -1,0 +1,6 @@
+{
+  "name": "courses-service",
+  "version": 2,
+  "builds": [{ "src": "./bin/www", "use": "@now/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
+}
